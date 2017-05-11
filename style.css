@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.background{
+  width: 100%;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -1300px;
+}
+
+.menu{
+  margin-top: -100px;
+  margin-bottom: 40px;
+  margin-left: 150px;
+}
+
+.description{
+  font-size: 50px
+}
+
+.des1{
+  margin-left: 150px;
+  margin-top: 250px;
+}
+
+.des2{
+  margin-left: 500px;
+}
+
+.rectangle{
+  width: 700px;
+  height: 4px;
+  background-color: #4b65e2;
+  margin-top: -200px;
+  margin-left: 1444px;
+}
+
