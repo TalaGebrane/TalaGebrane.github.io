@@ -1,53 +1,311 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
+.background{
+  background-image: url(Home-page/Background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 .logo{
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: -1300px;
+  margin-top: 50px;
 }
 
-
-.description{
-  font-size: 50px
+nav{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.des1{
-  margin-left: 150px;
-  margin-top: 250px;
-}
-
-.des2{
-  margin-left: 500px;
-}
-
-.rectangle{
-  width: 700px;
-  height: 4px;
-  background-color: #4b65e2;
-  margin-top: -200px;
-  margin-left: 1444px;
-}
-
-nav ul li{
+nav ul li {
   display: inline-block;
 }
-
-.main-nav{
-
+ul li a{
+  text-decoration: none;
+  margin: 20px;
+  
 }
 
 ul li{
   list-style: none;
 }
 
-ul li a{
-  text-decoration: none;
-  margin: 0 10px;
+.description{
+  margin-left: 100px;
+  margin-top: 130px;
+  font-size: 40px;
+  
+  width: 43vw;
+}
+
+.newline{
+  display: block;
+  float: right;
+  
+}
+
+.rectangle{
+  width: 1000px;
+  height: 2px;
+  background-color: #4962dd;
+  margin-left: 1000px;
+}
+
+.back{
+  margin-top: 596px;
+}
+
+#about{
+  background-color: black;
+  width: 100%;
+  height: 1350px;
+  margin-top:-140px;
+}
+
+.menu-2{
+  color: white;
+  font-size: 22px;
+}
+
+ul li{
+  margin: 20px;
+}
+
+.img{
+  margin-right: 15px;
+  width: 40px;
+}
+
+.img-3{
+  width: 28px;
+}
+
+.img-1{
+  width: 34px;
+}
+
+.menu-2{
+  margin-right: 650px;
+  margin-top: -100px;
+}
+
+.about-1 h2{
+  color: #4962dd;
+}
+
+.about-1{
+  color: white;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-family: sans-serif;
+}
+
+.round-1{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.Education h2{
+  color: #4962dd;
+}
+
+.Education{
+  color: white;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-family: sans-serif;
+}
+
+.Education .round{
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.Education .round-2{
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.Personal{
+  margin-top: 100px;
+  margin-left: 120px;
+  font-family: sans-serif;
+}
+.Personal h2{
+  color: #4962dd;
+}
+
+.Personal .round{
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.Personal .round-5{
+  margin-top: 35px;
+}
+
+.Personal .second{
+  color: #4962dd;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+#Portfolio-main{
+  background-color: black;
+  width: 100%;
+  height: 3100px;
+  margin-top: 1px;
+}
+
+.portfolio{
+  margin-left: 120px;
+  width: 1200px;
 }
 
 
+.prada{
+  width: 550px;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 110px;
+}
 
+.prada:hover {
+  filter: opacity(70%);
+}
+
+.do{
+  width: 545px;
+  margin-top: -800px;
+  background-color: white;
+}
+
+.do:hover{
+  filter: opacity(70%);
+}
+
+.travel{
+  margin-bottom: 850px;
+}
+
+.travel:hover{
+  filter: opacity(70%);
+}
+
+.bernard{
+  margin-left: 100px;
+  margin-bottom: 450px
+}
+
+.bernard:hover{
+  filter: opacity(70%);
+}
+
+.flugen{
+  margin-top: -500px;
+  margin-bottom: 350px;
+}
+
+.flugen:hover{
+  filter: opacity(70%);
+}
+
+.magazine{
+  width: 500px;
+  margin-left: 700px;
+  margin-top: -400px;
+}
+
+.magazine:hover{
+  filter: opacity(70%);
+}
+
+.atm{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.atm:hover{
+  filter: opacity(70%);
+}
+
+.portfolio h2{
+  color: white;
+  font-family: sans-serif;
+  font-size: 27px;
+  padding-top: 50px;
+}
+
+.title{
+  font-family: sans-serif;
+}
+
+.travel-agency{
+  color: white;
+  transform: rotate(90deg);
+  margin-top: -2830px;
+  margin-left: 510px;
+  width: 120px;
+}
+
+.dolce-and-gabana{
+  width: 300px;
+  color: white;
+  transform: rotate(90deg);
+  margin-top: 2047px;
+  margin-left: 430px;
+}
+
+.flugen-app{
+  color: white;
+  transform: rotate(90deg);
+  width: 80px;
+  margin-left: 540px;
+  margin-top: 965px;
+}
+
+.prada-web{
+  color: white;
+  transform: rotate(-90deg);
+  width: 80px;
+  margin-left: 580px;
+  margin-top: -927px;
+}
+
+.bernard-khoury{
+  color: white;
+  transform: rotate(-90deg);
+  width: 120px;
+  margin-left: 550px;
+  margin-top: -870px;
+}
+
+.tuesdays{
+  color: white;
+  transform: rotate(-90deg);
+  width: 200px;
+  margin-left: 570px;
+  margin-top: 985px;
+}
+
+.atm-app{
+  color: white;
+  transform: rotate(-90deg);
+  width: 100px;
+  margin-left: 575px;
+  margin-top: 124px;
+}
