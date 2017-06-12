@@ -9,24 +9,24 @@
   background-size: 100%;
 }
 
-.header{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  border-bottom-color: darkgrey;
+  width: 100%;
 }
 
 .logo{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 50px;
+  width: 40px;
+  margin-left: 90px;
+  margin-top: 20px;
 }
 
 nav{
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  margin-top: 30px;
+ margin-left: 120px;
+ margin-top: -50px;
 }
 
 nav ul li {
@@ -34,7 +34,7 @@ nav ul li {
 }
 ul li a{
   text-decoration: none;
-  margin: 20px;
+  color: black;
   
 }
 
@@ -43,8 +43,8 @@ ul li{
 }
 
 .description{
-  margin-left: 100px;
-  margin-top: 130px;
+  margin-left: 190px;
+  margin-top: 300px;
   font-size: 40px;
   
   width: 43vw;
@@ -53,14 +53,16 @@ ul li{
 .newline{
   display: block;
   float: right;
+  margin-right: -25px;
+  width: 30vw;
   
 }
 
 .rectangle{
-  width: 1000px;
+  width: 440px;
   height: 2px;
   background-color: #4962dd;
-  margin-left: 1000px;
+  margin-left: 990px;
 }
 
 .back{
@@ -68,7 +70,7 @@ ul li{
 }
 
 #about{
-  background-color: black;
+  background-color: #F7F7F7;
   width: 100%;
   height: 1350px;
   margin-top:-140px;
@@ -77,6 +79,9 @@ ul li{
 .menu-2{
   color: white;
   font-size: 22px;
+  margin-right: 4px;
+  margin-top: -100px;
+  width: 100%;
 }
 
 ul li{
@@ -96,17 +101,15 @@ ul li{
   width: 34px;
 }
 
-.menu-2{
-  margin-right: 650px;
-  margin-top: -100px;
-}
 
 .about-1 h2{
   color: #4962dd;
+  font-family: Gurmukhi Sangam MN;
+  font-size: 27px;
 }
 
 .about-1{
-  color: white;
+  color: #343434;
   margin-left: 120px;
   margin-top: 100px;
   font-family: sans-serif;
@@ -115,15 +118,18 @@ ul li{
 .round-1{
   margin-top: 30px;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: Helvetica Neue;
 }
 
 .Education h2{
   color: #4962dd;
+  font-family: Gurmukhi Sangam MN;
+  font-size: 27px;
 }
 
 .Education{
-  color: white;
+  color: #343434;
   margin-left: 120px;
   margin-top: 100px;
   font-family: sans-serif;
@@ -132,6 +138,8 @@ ul li{
 .Education .round{
   font-size: 20px;
   margin-top: 15px;
+  font-weight: 300;
+  font-family: Helvetica Neue;
 }
 
 .Education .round-2{
@@ -142,16 +150,21 @@ ul li{
 .Personal{
   margin-top: 100px;
   margin-left: 120px;
-  font-family: sans-serif;
+  font-family: Sathu;
 }
 .Personal h2{
   color: #4962dd;
+  font-family: Gurmukhi Sangam MN;
+  font-size: 27px;
+  
 }
 
 .Personal .round{
-  color: white;
+  color: #343434;
   font-size: 20px;
   margin-top: 15px;
+  font-family: Helvetica Neue;
+  font-weight: 300;
 }
 
 .Personal .round-5{
@@ -165,147 +178,231 @@ ul li{
 }
 
 #Portfolio-main{
-  background-color: black;
+  background-color: #F7F7F7;
   width: 100%;
-  height: 3100px;
-  margin-top: 1px;
+  height: 3600px;
+  margin-top: 2px;
 }
 
-.portfolio{
-  margin-left: 120px;
-  width: 1200px;
-}
-
-
-.prada{
-  width: 550px;
-  background-color: white;
-  margin-left: 100px;
-  margin-top: 110px;
-}
-
-.prada:hover {
-  filter: opacity(70%);
-}
-
-.do{
-  width: 545px;
-  margin-top: -800px;
-  background-color: white;
-}
-
-.do:hover{
-  filter: opacity(70%);
-}
-
-.travel{
-  margin-bottom: 850px;
-}
-
-.travel:hover{
-  filter: opacity(70%);
-}
-
-.bernard{
-  margin-left: 100px;
-  margin-bottom: 450px
-}
-
-.bernard:hover{
-  filter: opacity(70%);
-}
-
-.flugen{
-  margin-top: -500px;
-  margin-bottom: 350px;
-}
-
-.flugen:hover{
-  filter: opacity(70%);
-}
-
-.magazine{
+.Bernard-description p{
   width: 500px;
-  margin-left: 700px;
-  margin-top: -400px;
+  margin-top: 10px;
+  color: #343434;
+  
 }
 
-.magazine:hover{
-  filter: opacity(70%);
+.Bernard-description{
+  margin-left: 650px;
+  margin-top: -78px;
+  width: 500px;
+  
 }
 
-.atm{
+.Bernard-img{
+  width: 542px;
+  margin-top: 200px;
+  margin-left: 90px;
+}
+
+#Portfolio-main h2{
+  color: #4962dd;
+  font-family: Gurmukhi Sangam MN;
+}
+
+
+.Travel-img{
+  width: 542px;
+  height: 362px;
+  margin-left: 810px;
+  margin-top: 150px;
+}
+
+
+.Travel-description p{
+  width: 500px;
+  margin-top: 10px;
+  color: #343434
+}
+
+.Travel-description{
+  width: 500px;
+  margin-left: 90px;
+  margin-top: -90px;
+
+}
+
+.Photographe-img{
+  margin-top: 150px;
+  margin-left: 90px;
+   width: 542px;
+  height: 362px;
+}
+
+.Photographe-description{
+  margin-left: 650px;
+  margin-top: -60px;
+  width: 500px;
+
+}
+
+.Photographe-description p{
+  margin-top: 10px;
+}
+
+.Tuesdays-img{
+  width: 542px;
+  margin-left: 790px;
+  margin-top: 150px;
+}
+
+.Tuesdays-description {
+  margin-top: -60px;
+  margin-left: 90px;
+
+}
+
+.Tuesdays-description p{
+  margin-top: 10px;
+}
+
+.ATM-img{
+  margin-left: 90px;
+  margin-top: 150px;
+}
+
+.ATM-description{
+  margin-left: 660px;
+  margin-top: -95px;
+  width: 500px;
+ 
+}
+
+.ATM-description p{
+  margin-top: 10px;
+}
+
+.Flugen-img{
+  margin-top: 150px;
+  margin-left: 790px;
+}
+
+.Flugen-description{
+  width: 500px;
+  margin-left: 90px;
+  margin-top: -95px;
+}
+
+.Flugen-description p{
+  margin-top: 10px;
+  
+}
+
+.web{
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: #343434;
+  margin-left: 90px;
+  padding-top: 100px;
+}
+
+.projects{
+  margin-top: -150px
+}
+
+.Background{
+  background-color: #F7F7F7;
+}
+
+.big-title h2{
+  color: lightgrey;
+  font-size: 100px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.laptop-bernard{
+  margin-left: 400px;
+  margin-top: -30px;
+}
+
+.pro{
+  width: 710px;
+  margin: 0 auto;
+
+}
+
+.pro img {
+  margin: 5px;
+  display: inline-flex;
+  width: 342px;
+}
+
+
+.laptop-travel{
+  width: 633px;
+  margin-left: 410px;
+  margin-top: -25px;
+}
+
+.Ipad{
+  margin-left: 530px;
+  margin-top: -30px;
+}
+
+.pro-tuesdays{
+  width: 710px;
+  margin: 0 auto;
   margin-top: 50px;
-  margin-left: 100px;
 }
 
-.atm:hover{
+.pro-tuesdays img{
+  display: inline-flex;
+  width: 342px;
+  margin: 5px;
+}
+
+.pro-atm img{
+  display: inline-flex;
+  width: 342px;
+  padding: 5px;
+  margin: 4px;
+}
+
+.pro-atm{
+  width: 710px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.Iphone{
+  margin-left: 560px;
+  margin-top: -30px;
+}
+
+.Bernard-Khoury:hover img{
   filter: opacity(70%);
 }
 
-.portfolio h2{
-  color: white;
-  font-family: sans-serif;
-  font-size: 27px;
-  padding-top: 50px;
+.Travel-Agency:hover img{
+  filter: opacity(70%)
 }
 
-.title{
-  font-family: sans-serif;
+.Ludovic:hover img{
+  filter: opacity(70%)
 }
 
-.travel-agency{
-  color: white;
-  transform: rotate(90deg);
-  margin-top: -2830px;
-  margin-left: 510px;
-  width: 120px;
+.Tuesdays:hover img{
+  filter: opacity(70%)
 }
 
-.dolce-and-gabana{
-  width: 300px;
-  color: white;
-  transform: rotate(90deg);
-  margin-top: 2047px;
-  margin-left: 430px;
+.ATM:hover img{
+  filter: opacity(70%)
 }
 
-.flugen-app{
-  color: white;
-  transform: rotate(90deg);
-  width: 80px;
-  margin-left: 540px;
-  margin-top: 965px;
-}
-
-.prada-web{
-  color: white;
-  transform: rotate(-90deg);
-  width: 80px;
-  margin-left: 580px;
-  margin-top: -927px;
-}
-
-.bernard-khoury{
-  color: white;
-  transform: rotate(-90deg);
-  width: 120px;
-  margin-left: 550px;
-  margin-top: -870px;
-}
-
-.tuesdays{
-  color: white;
-  transform: rotate(-90deg);
-  width: 200px;
-  margin-left: 570px;
-  margin-top: 985px;
-}
-
-.atm-app{
-  color: white;
-  transform: rotate(-90deg);
-  width: 100px;
-  margin-left: 575px;
-  margin-top: 124px;
+.Flugen:hover img{
+  filter: opacity(70%)
 }
