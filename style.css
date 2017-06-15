@@ -184,6 +184,22 @@ ul li{
   margin-top: 2px;
 }
 
+@media (min-width: 700px){
+  .projects-portfolio{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1260px;
+  margin-left: 90px;
+ }
+}
+
+
+@media (max-width: 700px){
+  .projects-portfolio{
+    max-width: 300px;
+  }
+}
 .Bernard-description p{
   width: 500px;
   margin-top: 10px;
@@ -192,7 +208,7 @@ ul li{
 }
 
 .Bernard-description{
-  margin-left: 650px;
+  margin-left: 550px;
   margin-top: -78px;
   width: 500px;
   
@@ -201,7 +217,6 @@ ul li{
 .Bernard-img{
   width: 542px;
   margin-top: 200px;
-  margin-left: 90px;
 }
 
 #Portfolio-main h2{
@@ -213,7 +228,7 @@ ul li{
 .Travel-img{
   width: 542px;
   height: 362px;
-  margin-left: 810px;
+  margin-left: 716px;
   margin-top: 150px;
 }
 
@@ -226,20 +241,19 @@ ul li{
 
 .Travel-description{
   width: 500px;
-  margin-left: 90px;
-  margin-top: -90px;
+  margin-left: 220px;
+  margin-top: -100px;
 
 }
 
 .Photographe-img{
   margin-top: 150px;
-  margin-left: 90px;
    width: 542px;
   height: 362px;
 }
 
 .Photographe-description{
-  margin-left: 650px;
+  margin-left: 550px;
   margin-top: -60px;
   width: 500px;
 
@@ -251,13 +265,13 @@ ul li{
 
 .Tuesdays-img{
   width: 542px;
-  margin-left: 790px;
+  margin-left: 716px;
   margin-top: 150px;
 }
 
 .Tuesdays-description {
   margin-top: -60px;
-  margin-left: 90px;
+  margin-left: 240px;
 
 }
 
@@ -266,12 +280,11 @@ ul li{
 }
 
 .ATM-img{
-  margin-left: 90px;
   margin-top: 150px;
 }
 
 .ATM-description{
-  margin-left: 660px;
+  margin-left: 560px;
   margin-top: -95px;
   width: 500px;
  
@@ -283,13 +296,13 @@ ul li{
 
 .Flugen-img{
   margin-top: 150px;
-  margin-left: 790px;
+  margin-left: 713px;
 }
 
 .Flugen-description{
   width: 500px;
-  margin-left: 90px;
-  margin-top: -95px;
+  margin-left: 220px;
+  margin-top: -100px;
 }
 
 .Flugen-description p{
@@ -302,7 +315,6 @@ ul li{
   font-weight: 900;
   font-size: 25px;
   color: #343434;
-  margin-left: 90px;
   padding-top: 100px;
 }
 
@@ -449,6 +461,54 @@ ul li{
 .arrow{
   height: auto;
   width: 30px;
+  position: fixed;
+  top: 50%;
+}
+
+.arrow-right{
+  right: 10px;
+}
+.arrow-left{
+  left: 10px;
+}
+
+
+
+#contact{
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 1000px;
+  margin: 2px;
+}
+
+.info-contact img{
+  height: auto;
+  width: 30px;
+}
+
+.info-contact{
+  margin-left: 90px;
+  width:1000px;
+  height: auto;
   display: flex;
-  margin-left: 1370px;
+}
+
+.info-contact h2{
+  flex-basis: 100%;
+}
+
+.phone-number{
+  margin-top: 90px;
+  width: 1000px;
+}
+
+.e-mail{
+  margin-right: 300px;
+  width: 200px;
+  height: 100px;
+  margin-top: 90px;
+  margin-left: -520px;
+}
+#contact p{
+  padding: 5px;
 }
