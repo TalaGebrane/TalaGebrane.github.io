@@ -323,8 +323,8 @@ ul li{
 
 @media (max-width: 700px){
   .Bernard-description p{
-    width: 150px;
-    font-size: 10px;
+    width: 500px;
+    font-size: 20px;
     margin-top: 30px;
   }
 }
@@ -363,8 +363,8 @@ ul li{
 
 @media (max-width: 700px){
   .Travel-description p{
-    width: 150px;
-    font-size: 10px;
+    width: 500px;
+    font-size: 20px;
   }
   .Travel-img{
     margin-left: 0;
@@ -399,8 +399,8 @@ ul li{
 
 @media (max-width: 700px){
   .Photographe-description p{
-    width: 150px;
-    font-size: 10px;
+    width: 500px;
+    font-size: 20px;
   }
   .Photographe-img{
     margin-left: 0;
@@ -427,11 +427,11 @@ ul li{
 
 @media (max-width: 700px){
   .Tuesdays-description p{
-    width: 150px;
-    font-size: 10px;
+    width: 500px;
+    font-size: 20px;
   }
   .Tuesdays-img{
-    margin:0;
+    margin: 0;
   }
 }
 
@@ -452,7 +452,8 @@ ul li{
 
 @media (max-width:700px){
   .ATM-description p{
-    width: 300px;
+    width: 500px;
+    font-size: 20px;
   }
 }
 
@@ -474,6 +475,7 @@ ul li{
 @media (max-width:700px){
   .Flugen-description p{
     width: 300px;
+    font-size: 20px;
    }
 }
 
@@ -485,7 +487,7 @@ ul li{
  }
   
   .project-desc p{
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 5px;
   }
   
