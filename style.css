@@ -323,8 +323,9 @@ ul li{
 
 @media (max-width: 700px){
   .Bernard-description p{
-    width: 300px;
+    width: 150px;
     font-size: 10px;
+    margin-top: 30px;
   }
 }
 
@@ -362,8 +363,11 @@ ul li{
 
 @media (max-width: 700px){
   .Travel-description p{
-    width: 300px;
+    width: 150px;
     font-size: 10px;
+  }
+  .Travel-img{
+    margin-left: 0;
   }
 }
 
@@ -390,7 +394,17 @@ ul li{
 
 .Photographe-description p{
   margin-top: 10px;
-  width: 300px;
+  width: 150px;
+}
+
+@media (max-width: 700px){
+  .Photographe-description p{
+    width: 150px;
+    font-size: 10px;
+  }
+  .Photographe-img{
+    margin-left: 0;
+  }
 }
 
 
@@ -411,6 +425,15 @@ ul li{
   margin-top: 10px;
 }
 
+@media (max-width: 700px){
+  .Tuesdays-description p{
+    width: 150px;
+    font-size: 10px;
+  }
+  .Tuesdays-img{
+    margin-left: 0;
+  }
+}
 
 .ATM-img{
   margin-top: 150px;
