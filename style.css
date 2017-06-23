@@ -323,8 +323,8 @@ ul li{
 
 @media (max-width: 700px){
   .Bernard-description p{
-    width: 500px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
     margin-top: 30px;
   }
 }
@@ -363,11 +363,12 @@ ul li{
 
 @media (max-width: 700px){
   .Travel-description p{
-    width: 500px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
   }
   .Travel-img{
     margin-left: 0;
+    margin-top: 0;
   }
 }
 
@@ -399,8 +400,8 @@ ul li{
 
 @media (max-width: 700px){
   .Photographe-description p{
-    width: 500px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
   }
   .Photographe-img{
     margin-left: 0;
@@ -427,8 +428,8 @@ ul li{
 
 @media (max-width: 700px){
   .Tuesdays-description p{
-    width: 500px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
   }
   .Tuesdays-img{
     margin: 0;
@@ -452,8 +453,8 @@ ul li{
 
 @media (max-width:700px){
   .ATM-description p{
-    width: 500px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
   }
 }
 
@@ -474,8 +475,8 @@ ul li{
 
 @media (max-width:700px){
   .Flugen-description p{
-    width: 300px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 10px;
    }
 }
 
@@ -483,17 +484,18 @@ ul li{
 @media (max-width:700px){
   .project-desc {
     margin: 0;
-    width: 300px;
+    width: 250px;
  }
   
   .project-desc p{
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 5px;
+    margin-left: 0;
   }
   
   .project-desc h2{
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 5px;
   }
 }
