@@ -456,6 +456,7 @@ ul li{
     width: 250px;
     font-size: 10px;
   }
+
 }
 
 .Flugen-img{
@@ -499,6 +500,19 @@ ul li{
     margin-top: 5px;
   }
 }
+
+@media (max-width:700px){
+  .project-image{
+    padding: 0 50px;
+  }
+  
+  .project-image-atm{
+    padding: 0 50px;
+    margin: 0;
+  }
+
+}
+
 
 .web{
   font-family: sans-serif;
@@ -675,6 +689,10 @@ ul li{
     text-align: center;  }
 }
 
+  .project-image-main-center-3 {
+    text-align: center;  }
+
+
 @media (max-width: 700px){
   .project-image-main-center2{
   text-align: center;
@@ -683,6 +701,12 @@ ul li{
     flex-basis: 50%;
     margin-top: 10px;
 }
+   .project-image-main-center-3 {
+    text-align: center;
+     margin: 0 auto;
+     width: 230px;
+     height: auto;
+  }
 }
 
 .project-image-main-center2{
