@@ -388,21 +388,21 @@ ul li{
 
 .Photographe-description{
   margin-left: 550px;
-  margin-top: -80px;
+  margin-top: -150px;
   width: 300px;
 
 }
 
 .Photographe-description p{
   margin-top: 10px;
-  width: 150px;
+  width: 450px;
 }
 
 @media (max-width: 700px){
   .Photographe-description p{
-    width: 250px;
-    font-size: 10px;
+    max-width: 230px;
   }
+
   .Photographe-img{
     margin-left: 0;
   }
@@ -485,7 +485,7 @@ ul li{
 @media (max-width:700px){
   .project-desc {
     margin: 0;
-    width: 250px;
+    width: 200px;
  }
   
   .project-desc p{
@@ -925,7 +925,7 @@ ul li{
 }
 
 .Nudity-description{
-  margin-left: 650px;
+  margin-left: 550px;
   margin-top: -60px;
   width: 500px;
 }
@@ -934,6 +934,17 @@ ul li{
   width: 300px;
   margin-top: 10px;
   color: #343434;
+}
+
+@media (max-width: 700px){
+  .Nudity-description p{
+    width: 250px;
+    font-size: 10px;
+  }
+  
+  .Nudity-description{
+    margin: 0;
+  }
 }
 
 
@@ -945,11 +956,24 @@ ul li{
 }
 
 .Humain-description{
-  margin-left: 400px;
+  margin-left: 410px;
   margin-top: -50px;
   width: 300px;
 }
 
+@media (max-width: 700px){
+  .Humain-description p{
+    width: 250px;
+    font-size: 10px;
+  }
+  
+  .Humain-description{
+    margin: 0;
+  }
+  
+  
+  
+  
 #Photo-main{
   background-color: #F7F7F7;
   width: 100%;
@@ -968,3 +992,8 @@ ul li{
 .background-color{
   background-color: #F7F7F7;
 }
+
+  .Photographe-description p{
+    width: 500px;
+  }
+
